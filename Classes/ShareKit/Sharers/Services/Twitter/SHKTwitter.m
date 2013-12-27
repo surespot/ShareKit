@@ -99,7 +99,7 @@
 
 + (BOOL)canShare {
     
-    BOOL result = ![SHKTwitterCommon socialFrameworkAvailable];
+    BOOL result = [SHKTwitterCommon socialFrameworkAvailable];
     return result;
 }
 

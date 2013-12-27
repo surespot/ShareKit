@@ -255,7 +255,7 @@ static SHKFacebook *requestingPermisSHKFacebook=nil;
 
 + (BOOL)canShare {
     
-    BOOL result = ![SHKFacebookCommon socialFrameworkAvailable];
+    BOOL result = [SHKFacebookCommon socialFrameworkAvailable];
     return result;
 }
 

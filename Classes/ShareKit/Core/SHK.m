@@ -323,7 +323,7 @@ BOOL SHKinit;
 + (NSArray *)favoriteSharersForItem:(SHKItem *)item;
 {	
 	
-    NSArray *favoriteSharers = [[NSUserDefaults standardUserDefaults] objectForKey:[self favoritesKeyForItem:item]];
+    NSArray *favoriteSharers =  nil;//[[NSUserDefaults standardUserDefaults] objectForKey:[self favoritesKeyForItem:item]];
 		
 	// set defaults
 	if (favoriteSharers == nil)
